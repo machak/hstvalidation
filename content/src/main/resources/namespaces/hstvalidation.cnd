@@ -1,0 +1,10 @@
+<'hstvalidation'='http://www.onehippo.org/hstvalidation/nt/1.0'>
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.2'>
+<'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
+<'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+
+[hstvalidation:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document orderable
+
+[hstvalidation:textdocument] > hstvalidation:basedocument, hippostd:relaxed
+
+[hstvalidation:newsdocument] > hstvalidation:basedocument, hippostd:relaxed
